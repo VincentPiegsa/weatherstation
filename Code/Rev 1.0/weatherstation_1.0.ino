@@ -1,5 +1,5 @@
 /*
- * Title: Wetterstation Rev 1.0
+ * Title: Weatherstation Rev 1.0
  * Author: Vincent Piegsa
  * Date: 26.08.2018
  * Description: 
