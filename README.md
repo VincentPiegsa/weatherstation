@@ -1,2 +1,0 @@
-# weatherstation
-Arduino-based Weatherstation
