@@ -1,5 +1,5 @@
 /*
- * Title: Wetterstation Rev 1.1
+ * Title: Weatherstation Rev 1.1
  * Author: Vincent Piegsa
  * Date: 28.08.2018
  * Description: 
@@ -73,10 +73,10 @@ void displayTemperature(String* data) {
   lcd.clear();
 
   lcd.setCursor(0, 0);
-  lcd.print("Temperatur: ");
+  lcd.print("Temperature: ");
   
   lcd.setCursor(0, 1);
-  lcd.print(String(data[2]) + "'C");
+  lcd.print(String(data[2]) + "°C");
 }
 
 //function that displays the humidity on the LCD
@@ -84,7 +84,7 @@ void displayHumidity(String* data) {
   lcd.clear();
 
   lcd.setCursor(0, 0);
-  lcd.print("Feuchtigkeit: ");
+  lcd.print("Humidity: ");
   
   lcd.setCursor(0, 1);
   lcd.print(String(data[3]) + "%");
