@@ -1,4 +1,4 @@
-Updated version of the code.
+Updated version of the code:
 
   -implemented auto-initialization of the DS3231 (clock module)
   
