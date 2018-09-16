@@ -229,5 +229,3 @@ if __name__ == '__main__':
 	dates = ['6.9.2018', '7.9.2018', '8.9.2018', '9.9.2018', '10.9.2018', '11.9.2018', '12.9.2018', '13.9.2018']
 	
 	# -Hier beliebige Funktion aufrufen- # 
-
-	PlotData.averageWeek()
