@@ -1,3 +1,14 @@
+'''
+Titel: DataAnalysis.py
+Autor: Vincent Piegsa
+Datum: 16.09.2018
+Beschreibung:
+	- class Data: Daten einlesen und formatieren
+	- class Database: Datenbank erstellen und mit Daten füllen
+	- class DatabaseOperations: Min, Max etc. aus der Datenbank
+	- class PlotData: Daten mit matplotlib als Grafik speichern
+'''
+
 import sqlite3
 import os
 import matplotlib.pyplot as plt
@@ -151,7 +162,6 @@ class DatabaseOperations:
 		return data
 
 class PlotData:
-
 	@staticmethod
 	def averageWeek():
 		dates = ['6.9.2018', '7.9.2018', '8.9.2018', '9.9.2018', '10.9.2018', '11.9.2018', '12.9.2018', '13.9.2018']
