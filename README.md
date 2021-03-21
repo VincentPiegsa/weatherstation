@@ -1,2 +1,4 @@
-# weatherstation
-Arduino-based Weatherstation
+## Introduction
+An Arduino-based weather station for indoor use. 
+
+
